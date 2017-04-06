@@ -11,6 +11,20 @@
 |
 */
 
+// link to the Album Model for CRUD
+use App\Album;
+
+// home page
 Route::get('/', function () {
     return view('welcome');
+});
+
+// albums page
+Route::get('/albums', function() {
+    $albums = Album::orderBy('title', 'asc')->get();
+
+    // display the albums.blade.php view
+   return view('albums', [
+       'albums'=>$albums
+   ]);
 });
