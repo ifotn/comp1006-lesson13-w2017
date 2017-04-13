@@ -28,3 +28,14 @@ Route::get('/albums', function() {
        'albums'=>$albums
    ]);
 });
+
+// add an album
+Route::get('/albums/add', function() {
+   return view('add-album');
+});
+
+// save a new album
+Route::post('/albums/add', function() {
+    // show home page just for now
+    return view('welcome');
+});

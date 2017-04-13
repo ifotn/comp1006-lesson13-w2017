@@ -3,6 +3,8 @@
 @section('content')
 <h1>Albums</h1>
 
+<a href="/albums/add">Add a New Album</a>
+
     <table class="table table-striped table-hover">
         <tr>
             <td>Title</td>
