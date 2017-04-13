@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="479b5e14-06f8-4b4b-91e9-56973d91ab1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/add-album.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lesson12.iml" afterPath="$PROJECT_DIR$/.idea/lesson12.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/albums.blade.php" afterPath="$PROJECT_DIR$/resources/views/albums.blade.php" />
     </list>
@@ -47,17 +43,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="albums.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="albums.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/albums.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="20" column="86" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="86" />
               <folding>
-                <marker date="1492108117736" expanded="true" signature="9:22" ph="..." />
-                <marker date="1492108117736" expanded="true" signature="34:43" ph="..." />
-                <marker date="1492108117736" expanded="true" signature="341:354" ph="..." />
-                <marker date="1492108117736" expanded="true" signature="384:396" ph="..." />
-                <marker date="1492108117736" expanded="true" signature="426:440" ph="..." />
+                <marker date="1492111891705" expanded="true" signature="9:22" ph="..." />
+                <marker date="1492111891705" expanded="true" signature="34:43" ph="..." />
+                <marker date="1492111891705" expanded="true" signature="369:382" ph="..." />
+                <marker date="1492111891705" expanded="true" signature="412:424" ph="..." />
+                <marker date="1492111891705" expanded="true" signature="454:468" ph="..." />
+                <marker date="1492111891705" expanded="true" signature="522:537" ph="..." />
               </folding>
             </state>
           </provider>
@@ -77,12 +74,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="631">
+              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+              <folding>
+                <element signature="e#430#444#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,9 +129,9 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Album.php" />
+        <option value="$PROJECT_DIR$/resources/views/add-album.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/albums.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/add-album.blade.php" />
       </list>
     </option>
   </component>
@@ -506,12 +505,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491506530724</updated>
       <workItem from="1491506535697" duration="4626000" />
-      <workItem from="1492107273025" duration="3043000" />
+      <workItem from="1492107273025" duration="6078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7669000" />
+    <option name="totallyTimeSpent" value="10704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -596,11 +595,12 @@
         <state relative-caret-position="390">
           <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <marker date="1492108117736" expanded="true" signature="9:22" ph="..." />
-            <marker date="1492108117736" expanded="true" signature="34:43" ph="..." />
-            <marker date="1492108117736" expanded="true" signature="341:354" ph="..." />
-            <marker date="1492108117736" expanded="true" signature="384:396" ph="..." />
-            <marker date="1492108117736" expanded="true" signature="426:440" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="9:22" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="34:43" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="369:382" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="412:424" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="454:468" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="522:537" ph="..." />
           </folding>
         </state>
       </provider>
@@ -633,7 +633,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="e#430#444#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,25 +704,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/albums.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="631">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding>
-            <marker date="1492108117736" expanded="true" signature="9:22" ph="..." />
-            <marker date="1492108117736" expanded="true" signature="34:43" ph="..." />
-            <marker date="1492108117736" expanded="true" signature="341:354" ph="..." />
-            <marker date="1492108117736" expanded="true" signature="384:396" ph="..." />
-            <marker date="1492108117736" expanded="true" signature="426:440" ph="..." />
+            <element signature="e#430#444#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/albums.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="468">
+          <caret line="20" column="86" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="86" />
+          <folding>
+            <marker date="1492111891705" expanded="true" signature="9:22" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="34:43" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="369:382" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="412:424" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="454:468" ph="..." />
+            <marker date="1492111891705" expanded="true" signature="522:537" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

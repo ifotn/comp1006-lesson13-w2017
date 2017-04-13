@@ -10,6 +10,7 @@
             <td>Title</td>
             <td>Year</td>
             <td>Artist</td>
+            <td>Delete</td>
         </tr>
 
         @foreach($albums as $album)
@@ -17,6 +18,7 @@
                 <td>{{$album->title}}</td>
                 <td>{{$album->year}}</td>
                 <td>{{$album->artist}}</td>
+                <td><a href="/albums/delete/{{$album->albumId}}" class="btn btn-danger">Delete</a></td>
             </tr>
         @endforeach
 
